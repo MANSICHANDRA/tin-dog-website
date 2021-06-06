@@ -1,0 +1,140 @@
+body{
+  text-align: center;
+}
+#title{
+  background-color: #ff4c68;
+}
+  h1{
+    color: white;
+    font-family: 'Modak', cursive;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  .container-fluid{
+    padding: 7% 15%;
+  }
+
+  .navbar{
+    padding-bottom: 4.5rem;
+  }
+
+
+
+  .navbar-brand{
+    font-family: 'Swanky and Moo Moo';
+    font-size: 2.5rem;
+
+  }
+  .nav-item{
+    padding: 0 18px;
+  }
+
+  .Download-button{
+    margin: 5% 3% 5% 0;
+  }
+
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  z-index: 1;
+}
+
+
+#features{
+
+  padding: 7% 15%;
+  color: black;
+  text-align: center;
+}
+.icon{
+  color: orange;
+  line-height: 2;
+}
+h3{
+  font-family: 'Modak', cursive;
+}
+.icon:hover{
+  color: magenta;
+}
+#testimonials{
+  background-color: orange;
+  text-align: center;
+  color: white;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+}
+.testimonial-text{
+  margin: 10%;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+h2 {
+  font-family:fantasy;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+#press{
+    background-color: orange;
+    text-align: center;
+}
+.press-logo{
+  width: 15%;
+  margin: 2rem 2rem 2rem 2rem;
+
+}
+
+#pricing{
+  text-align: center;
+  padding: 20px ;
+  padding-bottom: 40px;
+  margin: 20px;
+}
+.price-text{
+  margin-bottom: 60px;
+}
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.white-section {
+  background-color: #fff;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* CTA Section */
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  line-height: 1.5rem;
+}
+
+.cta-heading{
+  font-family:  'Modak', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5rem;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
